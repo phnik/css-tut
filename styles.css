@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+.menu{
+    width: 100%;
+    background-color: #ed1b26;
+}
+
+nav{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+    display: block;
+    float: left;
+}
+
+nav a:first-child{
+    margin-left: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.img-with-caption{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.caption-of-img{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    line-height: 1.4;
+    overflow: hidden;
+    /* text-align: center; */
+}
+
+.highlight{
+    color: red;
+}
+
+
+.mother-box{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.side-ads-box{
+    width: 30%;
+    float: right;
+    justify-content: center;
+    /* padding-right: 10px; */
+    
+}
+
+.all-content{
+    float: left;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.content{
+    height: 50%;
+}
+
+.tip{
+    height: 50%;
+}
+
+.left-content{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.right-content{
+    float: right;
+    width: 50%;
+    height: 75%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-content a h3{
+    color: #333;
+    margin: 15px 0;
+}
+
+.item a{
+    display: flex;
+}
+
+.item img{
+    width: 45%;
+    /* margin-right: 10px; */
+}
+
+.item p{
+    padding: 10px;
+    padding-top: 5px;
+}
+
+li::marker{
+    color: red;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin: 10px 0;
+}
