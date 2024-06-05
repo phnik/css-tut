@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, sans-serif;
-    background-color: green;
+    background-color: white;
     height: 100vh;
 }
 .container{
@@ -21,7 +21,8 @@ body{
 .item-1{
     grid-column: 1 / 2;
     grid-row: 1 / 5;
-    background-color: red;
+    background-color: #fff;
+    padding: 10px;
 }
 
 .item-2{
@@ -96,4 +97,45 @@ nav{
     width: 70%;
     margin: auto;
     overflow: hidden;
+}
+
+.content-img{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.content-img a img{
+    width: 100%;
+}
+
+.content-detail{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 17px;
+    background-color: #0aed924b;
+    height: 80px;
+}
+
+.content-detail a{
+    color: white;
+    font-size: 20px;
+}
+.side-ads a img{
+    width: 95%;
+    
+}
+
+.side-ads{
+    padding-left: 30px;
+}
+
+.food{
+    color: red;
+    /* margin: 20px 0; */
+}
+
+.detailed{
+    margin: 10px 0;
 }
